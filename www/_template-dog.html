@@ -5,8 +5,21 @@
                         <img class="activator" src="{{dog.imageUrl}}"">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">{{dog.name}}<br>
-                            <small><em><a class="red-text text-darken-1" href="#">Sponsor Me!</a></em></small></span>
+                          <form class="sponsorform" action="https://www.myvirtualmerchant.com/VirtualMerchant/process.do" method="POST">
+                            <input name="ssl_merchant_id" type="hidden" value="545279">
+                            <input name="ssl_user_id" type="hidden" value="545279">
+                            <input name="ssl_pin" type="hidden" value="76EG93">
+                            <input name="ssl_show_form" type="hidden" value="true">
+                            <input name="ssl_transaction_type" type="hidden" value="ccsale">
+                            <input name="ssl_cvv2cvc2_indicator" type="hidden" value="1">
+                            <input name="ssl_description" type="hidden" value="Sponsor {{dog.name}}">
+                            <input name="ssl_amount" type="hidden" value="100.00">
+                            <input name="ssl_test_mode" type="hidden" value="false">
+                            <input type="submit" value="Sponsor {{dog.name}}">
+                          </form>
+
+
+
                     </div>
                 </div>
 </div>
