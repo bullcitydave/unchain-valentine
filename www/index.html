@@ -4,8 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="theme-color" content="#2196F3">
-    <title>Material UI One Page Theme</title>
+    <title>Coalition To Unchain Dogs :: Sponsor a Spay for Valentine's Day</title>
 
+    <link rel="shortcut icon" href="http://www.unchaindogs.net/wp-content/uploads/2013/10/favico.png"/>
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
@@ -28,24 +29,24 @@
     <nav id="nav_f" class="coalition-yellow" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">
+            <a target="_blank" href="http://www.unchaindogs.net" id="logo-container" class="brand-logo">
               <img class="nav-logo" src="img/logo-1.png" text="Coalition To Unchain Dogs"/>
             </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">Support Us</a></li>
-                    <li><a href="#work">Happy Tails Videos</a></li>
-                    <li><a href="#team">FAQ's</a></li>
-                    <li><a href="#contact">Start Your Own</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="" target="_blank">Links</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/support-us/" >Support Us</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/happy-tails/" >Happy Tails Videos</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/i-want-to-get-more-information/" >FAQ's</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/i-want-to-start-a-similar-group/" >Start Your Own</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/contact/" >Contact</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/links/" >Links</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">Support Us</a></li>
-                    <li><a href="#work">Happy Tails Videos</a></li>
-                    <li><a href="#team">FAQ's</a></li>
-                    <li><a href="#contact">Start Your Own</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="" target="_blank">Links</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/support-us/" >Support Us</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/happy-tails/" >Happy Tails Videos</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/i-want-to-get-more-information/" >FAQ's</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/i-want-to-start-a-similar-group/" >Start Your Own</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/contact/" >Contact</a></li>
+                    <li><a target="_blank" href="http://www.unchaindogs.net/links/" >Links</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
@@ -102,6 +103,7 @@
 </html>
 
 <script>
+
 var env = nunjucks.configure({ web: {async :true }, autoescape: true });
 env.render('./template.html', { dogs }, function(err, res) {
   $('#dogs').append(res);
