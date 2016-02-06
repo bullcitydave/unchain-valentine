@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Material UI One Page Theme</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+    <link href="css/custom.css" type="text/css" rel="stylesheet" >
+    <script src="js/nunjucks.js"></script>
+</head>
+<body id="top" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="coalition-yellow" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo">
+              <img class="nav-logo" src="img/logo-1.png" text="Coalition To Unchain Dogs"/>
+            </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#intro">Support Us</a></li>
+                    <li><a href="#work">Happy Tails Videos</a></li>
+                    <li><a href="#team">FAQ's</a></li>
+                    <li><a href="#contact">Start Your Own</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" target="_blank">Links</a></li>
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#intro">Support Us</a></li>
+                    <li><a href="#work">Happy Tails Videos</a></li>
+                    <li><a href="#team">FAQ's</a></li>
+                    <li><a href="#contact">Start Your Own</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="" target="_blank">Links</a></li>
+                </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Hero-->
+<div class="section no-pad-bot hero" id="index-banner">
+    <div class="container">
+        <h3 class="center header cd-headline letters type">
+            <span>Valentine's Day Snip 'Em for Your Sweetheart</span>
+        </h1>
+        <h1 class="text_h center header cd-headline letters type">
+            <span>$100</span>
+        </h1>
+        <div class="hero-text">
+          <span>Give your sweetheart the gift that forever changes the life of one of our dogs.  Your gift of a spay or neuter sponsorship will allow us to provide a veterinary appointment including vaccinations and spay or neuter.  Be a Papa Stoppa in honor of your Valentine and we'll send your sweetheart a card with the picture of the dog you sponsored.</span> </div>
+    </div>
+</div>
+
+<!--Intro and service--not using here>
+<div id="intro" class="section scrollspy">
+
+</div>
+
+
+<!--Parallax--not used in this page>
+<div class="parallax-container">
+    <div class="parallax"></div>
+</div>
+
+<!--Team-->
+<div class="section scrollspy" id="team">
+    <div class="container">
+        <h2 class="center header text_b"></h2>
+        <div class="row" id="cards">
+        </div>
+    </div>
+    <div class="footer-copyright default_color">
+        <div class="container">
+          &#169;2016 Coalition To Unchain Dogs
+        </div>
+    </div>
+</footer>
+<div class="temp"></div>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+    <script src="js/dogs.js"></script>
+    </body>
+</html>
+
+<script>
+var env = nunjucks.configure({ web: {async :true }, autoescape: true });
+env.render('./template.html', { dogs }, function(err, res) {
+  $('#dogs').append(res);
+});
+env.render('./_template-dog.html', { dogs }, function(err, res) {
+  $('#cards').append(res);
+});
+</script>

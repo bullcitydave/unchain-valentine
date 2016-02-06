@@ -1,0 +1,75 @@
+.text_b {
+  color: #D9040A; //dark-red   //  #FA1CAC; //pink
+}
+
+.default_color {
+  background-color: #FF0103 !important; //red
+}
+
+.coalition-yellow {
+  background-color: #F5C802;
+  color: #000;
+}
+
+.coalition-yellow a.active {
+  color: #D9040A;
+}
+
+.coalition-yellow a {
+  color: #000;
+}
+
+#index-banner {
+  background-color: #D9040A
+}
+
+.nav-logo {
+  height: 62px;
+}
+
+.cd-headline {
+  color: #fff;
+}
+
+
+
+.text_h {
+  padding: 0;
+}
+
+.text_h2 {
+  color: #fff;
+}
+
+#index-banner {
+  min-height: 400px;
+}
+
+.hero-text {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.card {
+  padding-top: 10px;
+}
+
+.card .card-image {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.card .card-image img {
+  height: 300px;
+  width:auto;
+}
+
+.card-avatar img {
+  height: 300px;
+  width: auto;
+  border-radius: 0px;
+}
+
+.parallax-container {
+  height: 0px;
+}

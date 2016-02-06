@@ -1,0 +1,16 @@
+{
+  "name": "Coalition to Unchain Dogs Valentine's Day Spay & Neuter Sponsorship Drive",
+  "description": "Coalition to Unchain Dogs Valentine's Day Spay & Neuter Sponsorship Drive",
+  "version": "0.0.1",
+  "author": "Dave Seidman",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.x"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "http": "0.0.0",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {}
+}
