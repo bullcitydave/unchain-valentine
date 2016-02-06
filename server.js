@@ -4,5 +4,6 @@
 
 var connect = require('connect');
 var serveStatic = require('serve-static');
-connect().use(serveStatic(__dirname + '/www')).listen(8080);
+var port = Number(process.env.PORT || 8080);
+connect().use(serveStatic(__dirname + '/www')).listen(port);
 console.log('listening...');
