@@ -115,4 +115,4 @@ function limit(array, numItems) {
 }
 
 // randomize and limit number displayed; 0 displays all
-dogs = limit(shuffle(dogs), 12);
+dogs = limit(shuffle(dogs), 0);
