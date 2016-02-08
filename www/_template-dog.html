@@ -1,8 +1,8 @@
 {% for dog in dogs %}
 <div class="col s12 m4">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="{{dog.imageUrl}}"">
+                <div class="card card-avatar {% if dog.sponsored %} sponsored {% endif %}">
+                    <div class="center">
+                        <img src="{{dog.imageUrl}}"">
                     </div>
                     <div class="card-content">
                           <form class="sponsorform" action="https://www.myvirtualmerchant.com/VirtualMerchant/process.do" method="POST">
@@ -15,7 +15,13 @@
                             <input name="ssl_description" type="hidden" value="Sponsor {{dog.name}}">
                             <input name="ssl_amount" type="hidden" value="100.00">
                             <input name="ssl_test_mode" type="hidden" value="false">
-                            <input type="submit" value="Sponsor {{dog.name}}">
+                            <input type="submit"
+                            {% if dog.sponsored %}
+                              disabled value="Sponsored!"
+                            {% else %}
+                              value="Sponsor {{dog.name}}"
+                            {% endif %}
+                            ">
                           </form>
 
 

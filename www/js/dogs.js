@@ -27,7 +27,8 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/96xh3g55ag8o0v4/Foxy%20-%20OC.jpg"},
   {
     "name": "Jack",
-    "imageUrl": "https://dl.dropboxusercontent.com/s/hx9rspw9q31wh8t/Jack.jpg"
+    "imageUrl": "https://dl.dropboxusercontent.com/s/hx9rspw9q31wh8t/Jack.jpg",
+    "sponsored" : true
   },
   { "name" : "Lady",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/pp5se55b7io5j60/Lady%20%281%29.jpg"
@@ -40,7 +41,8 @@ var dogs = [
   },
 
   { "name" : "Mia",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/j8k4nw0skasd9iy/Mia%20-%20Durham.jpg"
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/j8k4nw0skasd9iy/Mia%20-%20Durham.jpg",
+    "sponsored" : true
   },
   { "name" : "Mikey",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/tqpkj6cihjukbat/Mikey%20-%20OC.jpg"
@@ -49,7 +51,8 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/eu9eplxftfei6xm/Molly.jpg"},
   {
     "name": "Nemo",
-    "imageUrl": "https://dl.dropboxusercontent.com/s/hscmatnqfv5xnx1/Nemo%20-%20Durham.jpg"
+    "imageUrl": "https://dl.dropboxusercontent.com/s/hscmatnqfv5xnx1/Nemo%20-%20Durham.jpg",
+    "sponsored" : true
   },
   { "name" : "Peanut",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/4hykgenkga6ooy2/Peanut.jpg"
@@ -58,7 +61,8 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/8jbpu7dzdd8ruu6/Reesie%20Cup%20-%20OC.jpg"},
   {
     "name": "Sapphire",
-    "imageUrl": "https://dl.dropboxusercontent.com/s/ensvm7ku1dpinun/Sapphire.jpg"
+    "imageUrl": "https://dl.dropboxusercontent.com/s/ensvm7ku1dpinun/Sapphire.jpg",
+    "sponsored" : true
   },
   { "name" : "Shannelle",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/o6247iag1j8fxyx/Shannelle%20-%20OC.jpg"
@@ -67,13 +71,17 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/pzxtlmcui2gnnoq/Jasper%20-%20Durham.jpg"
   },
   { "name" : "Lily",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/xodgia203qjozo9/Lily.jpg"},
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/xodgia203qjozo9/Lily.jpg",
+    "sponsored" : true
+  },
   {
     "name": "JC",
-    "imageUrl": "https://dl.dropboxusercontent.com/s/t5cyo0t4dl8f5ca/JC%20-%20OC.jpg"
+    "imageUrl": "https://dl.dropboxusercontent.com/s/t5cyo0t4dl8f5ca/JC%20-%20OC.jpg",
+    "sponsored" : true
   },
   { "name" : "Mama",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/3rplrcihiweox13/Mama.jpg"
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/3rplrcihiweox13/Mama.jpg",
+    "sponsored" : true
   },
   { "name" : "Max",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/gsy5003wpxcaaa5/Max%20%282%29.jpg"},

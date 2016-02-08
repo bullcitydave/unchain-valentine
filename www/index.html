@@ -105,9 +105,6 @@
 <script>
 
 var env = nunjucks.configure({ web: {async :true }, autoescape: true });
-env.render('./template.html', { dogs }, function(err, res) {
-  $('#dogs').append(res);
-});
 env.render('./_template-dog.html', { dogs }, function(err, res) {
   $('#cards').append(res);
 });

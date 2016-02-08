@@ -65,6 +65,20 @@ nav ul a {
   text-align: -webkit-center;
 }
 
+.card.sponsored img{
+  opacity: .6;
+}
+
+.card.sponsored input[type="submit"] {
+  background-color: #D9040A;
+    color: #fff;
+}
+.card.sponsored input[type="submit"]:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+
 .card .card-image img {
   height: 300px;
   width:auto;
