@@ -66,7 +66,7 @@ nav ul a {
 }
 
 .card.sponsored img{
-  opacity: .6;
+  opacity: .75;
 }
 
 .card.sponsored input[type="submit"] {
@@ -94,11 +94,12 @@ nav ul a {
   height: 0px;
 }
 
-input[type=submit] {
+.card-content input[type=submit] {
   background-color: #FA1CAC;
-    color: #000;
-    font-weight: 300;
+    color: #FFF;
+    font-weight: 400;
     padding:15px;
+    min-width: 50%;
   }
 
   input[type=submit]:hover {
