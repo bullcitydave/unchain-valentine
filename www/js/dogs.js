@@ -33,7 +33,6 @@ var dogs = [
   { "name" : "Lady",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/pp5se55b7io5j60/Lady%20%281%29.jpg",
     "sponsored" : true
-
   },
   { "name" : "Madison",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/0r3wsu603f8u6zw/Madison.jpg"},
