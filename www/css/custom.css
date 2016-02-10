@@ -66,7 +66,7 @@ nav ul a {
 }
 
 .card.sponsored img{
-  opacity: .6;
+  opacity: .75;
 }
 
 .card.sponsored input[type="submit"] {
@@ -76,13 +76,37 @@ nav ul a {
 .card.sponsored input[type="submit"]:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
 
+.ribbon{
+  width: 50%;
+  line-height: 50px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ribbon.red {
+  background-color:#D9040A;
+}
+
+
+.cribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
 
 .card .card-image img {
   height: 300px;
   width:auto;
 }
+
+.card-content {
+  min-height: 90px;
+}
+
+/*.card.sponsored .card-content form {
+    display: none;
+}*/
 
 .card-avatar img {
   height: 300px;
@@ -94,14 +118,15 @@ nav ul a {
   height: 0px;
 }
 
-input[type=submit] {
+.card-content input[type=submit] {
   background-color: #FA1CAC;
-    color: #000;
-    font-weight: 300;
-    padding:15px;
-  }
+  color: #fff;
+  font-weight: 400;
+  padding: 15px;
+  min-width: 50%;
+}
 
-  input[type=submit]:hover {
+.card-content input[type=submit]:hover {
   -webkit-box-shadow: 0px 10px 18px #333;
   box-shadow: 0px 10px 18px #333;
    transition: .5s all ease;

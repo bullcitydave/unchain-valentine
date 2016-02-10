@@ -31,7 +31,8 @@ var dogs = [
     "sponsored" : true
   },
   { "name" : "Lady",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/pp5se55b7io5j60/Lady%20%281%29.jpg"
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/pp5se55b7io5j60/Lady%20%281%29.jpg",
+    "sponsored" : true
   },
   { "name" : "Madison",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/0r3wsu603f8u6zw/Madison.jpg"},
@@ -55,7 +56,8 @@ var dogs = [
     "sponsored" : true
   },
   { "name" : "Peanut",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/4hykgenkga6ooy2/Peanut.jpg"
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/4hykgenkga6ooy2/Peanut.jpg",
+    "sponsored" : true
   },
   { "name" : "Reesie Cup",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/8jbpu7dzdd8ruu6/Reesie%20Cup%20-%20OC.jpg"},
