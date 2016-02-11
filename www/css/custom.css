@@ -111,3 +111,9 @@ nav ul a {
   box-shadow: 0px 10px 18px #333;
    transition: .5s all ease;
   }
+
+
+  .promo img {
+    width: 95%;
+    border-radius: 40px;
+}
