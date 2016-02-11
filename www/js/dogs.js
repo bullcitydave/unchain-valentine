@@ -6,7 +6,8 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/1i8x28gexb83yr3/Buddy%20%282%29.jpg"
   },
   { "name" : "Caramel",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/fdh69osr18a29ns/Caramel.jpg"
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/fdh69osr18a29ns/Caramel.jpg",
+    "sponsored" : true
   },
   { "name" : "Chuck",
     "imageUrl" : "https://dl.dropboxusercontent.com/s/6drts82zcz511ki/Chuck%20-%20OC.jpg"},
@@ -24,7 +25,8 @@ var dogs = [
     "imageUrl" : "https://dl.dropboxusercontent.com/s/s4wlsrom4omps93/Dolly.jpg"
   },
   { "name" : "Foxy",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/96xh3g55ag8o0v4/Foxy%20-%20OC.jpg"},
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/96xh3g55ag8o0v4/Foxy%20-%20OC.jpg",
+    "sponsored" : true},
   {
     "name": "Jack",
     "imageUrl": "https://dl.dropboxusercontent.com/s/hx9rspw9q31wh8t/Jack.jpg",
@@ -60,7 +62,8 @@ var dogs = [
     "sponsored" : true
   },
   { "name" : "Reesie Cup",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/8jbpu7dzdd8ruu6/Reesie%20Cup%20-%20OC.jpg"},
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/8jbpu7dzdd8ruu6/Reesie%20Cup%20-%20OC.jpg",
+    "sponsored" : true},
   {
     "name": "Sapphire",
     "imageUrl": "https://dl.dropboxusercontent.com/s/ensvm7ku1dpinun/Sapphire.jpg",
@@ -86,7 +89,9 @@ var dogs = [
     "sponsored" : true
   },
   { "name" : "Max",
-    "imageUrl" : "https://dl.dropboxusercontent.com/s/gsy5003wpxcaaa5/Max%20%282%29.jpg"},
+    "imageUrl" : "https://dl.dropboxusercontent.com/s/gsy5003wpxcaaa5/Max%20%282%29.jpg",
+    "sponsored" : true
+  },
   {
     "name": "Destiny",
     "imageUrl": "https://dl.dropboxusercontent.com/s/qj3mganw3krrh19/Destiny.jpg"
