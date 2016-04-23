@@ -1,3 +1,41 @@
+#index-banner {
+  background-color: #EAEAEA;
+  text-align:center;
+}
+
+#sponsors {
+  clear: both;
+}
+.sponsorform {
+  float: left;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.92rem;
+}
+
+#presented {
+  width: 30%;
+  min-width: 300px;
+  float: left;
+  padding: 30px;
+}
+
+#main-info {
+  width: 70%;
+  max-width: 960px;
+    float: right;
+    padding: 30px;
+}
+
+#tickets {
+  padding: 30px;
+}
+
+
+//  CSS FROM VALENTINE'S PAGE
+
 .text_b {
   color: #D9040A; //dark-red   //  #FA1CAC; //pink
 }
@@ -19,9 +57,7 @@
   color: #000;
 }
 
-#index-banner {
-  background-color: #EAEAEA;
-}
+
 
 nav ul a {
   font-weight: 500;
@@ -111,3 +147,5 @@ nav ul a {
   box-shadow: 0px 10px 18px #333;
    transition: .5s all ease;
   }
+
+
